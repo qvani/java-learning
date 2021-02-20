@@ -14,6 +14,8 @@ public class StringJoiner用于字符串拼接 {
         //用于sql拼接会非常的简单
         StringJoiner stringJoiner = new StringJoiner("','", "('", "')");
         stringJoiner.add("8615180450284");
+        stringJoiner.add("8615180450284");
+        stringJoiner.add("8615180450284");
 
         System.out.println(stringJoiner);
     }
