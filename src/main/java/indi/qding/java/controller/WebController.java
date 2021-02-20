@@ -13,7 +13,8 @@ public class WebController {
 
     @GetMapping("/failed")
     public String toFailed(){
-        String res = "failed";
+        String res = "not good!";
+        res+="~";
         return res;
     }
 }
