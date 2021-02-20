@@ -10,4 +10,9 @@ public class WebController {
     public String toSuccess(){
         return "success";
     }
+
+    @GetMapping("/failed")
+    public String failed(){
+        return "not good!";
+    }
 }
