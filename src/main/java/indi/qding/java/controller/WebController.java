@@ -12,9 +12,9 @@ public class WebController {
     }
 
     @GetMapping("/failed")
-    public String toFailed(){
+    public String toFailed() {
         String res = "not good!";
-        res+="~";
         return res;
     }
+
 }
